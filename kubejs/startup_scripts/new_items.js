@@ -21,6 +21,7 @@ StartupEvents.registry("item", (event) => {
     .texture("kubejs:item/fly_helmet")
     .tier("fly")
     .unstackable()
+    .fireResistant()
     .displayName("Angel Helmet");
   event
     .create("fly_chestplate", "chestplate")
@@ -29,6 +30,7 @@ StartupEvents.registry("item", (event) => {
     .texture("kubejs:item/fly_chestplate")
     .tier("fly")
     .unstackable()
+    .fireResistant()
     .displayName("Angel Chestplate");
   event
     .create("fly_leggings", "leggings")
@@ -37,14 +39,15 @@ StartupEvents.registry("item", (event) => {
     .texture("kubejs:item/fly_leggings")
     .tier("fly")
     .unstackable()
-    .displayName("Angel Leggings");
+    .displayName("Angel Leggings")
+    .fireResistant();
   event
     .create("fly_boots", "boots")
     .rarity("epic")
     .tooltip("You can fly")
+    .fireResistant()
     .texture("kubejs:item/fly_boots")
     .tier("fly")
-    .unstackable()
     .displayName("Angels Boots");
 
 

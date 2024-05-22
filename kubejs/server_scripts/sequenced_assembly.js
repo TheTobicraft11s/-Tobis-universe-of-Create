@@ -1,6 +1,7 @@
 //priority: 1
 
 
+
 ServerEvents.recipes((event) => {
 let magnet = "minecraft:deepslate_bricks";
   event.recipes.create
