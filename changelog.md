@@ -2,7 +2,7 @@ Commandboost was added :
         /boostspeed geschwindichkeits boost
         /boosthaste haste boost
 
-ADMIN COMMAND givediacoin was created his is null
+ADMIN COMMAND givediacoin was created works not
 
 
 Custom script: 
